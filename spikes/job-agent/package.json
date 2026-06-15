@@ -1,0 +1,22 @@
+{
+  "name": "job-agent",
+  "private": true,
+  "type": "module",
+  "description": "ReAct job-market analyzer — public sources only, no LinkedIn login. Sprint-1 TS spike.",
+  "scripts": {
+    "jobs": "tsx src/fetch.ts",
+    "analyze": "tsx src/analyze.ts",
+    "agent": "tsx src/agent.ts"
+  },
+  "dependencies": {
+    "@openrouter/ai-sdk-provider": "^2.9.1",
+    "ai": "^6.0.205",
+    "dotenv": "^16.4.7",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.21",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
+  }
+}

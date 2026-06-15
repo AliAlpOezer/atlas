@@ -15,15 +15,14 @@ export const MODELS: ModelInfo[] = [
     id: "claude-haiku",
     label: "Claude Haiku 4.5",
     provider: "anthropic",
-    modelId: "claude-haiku-4-5", // TODO: confirm exact id in your Anthropic console
-    inputPer1M: 1, // TODO: confirm on anthropic.com/pricing
+    modelId: "claude-haiku-4-5",
+    inputPer1M: 1,
     outputPer1M: 5,
   },
   {
     id: "nemotron-free",
     label: "Nemotron 3 Ultra (free)",
     provider: "openrouter",
-    // TODO: confirm exact slug via the "copy model ID" button on openrouter.ai/models
     modelId: "nvidia/nemotron-3-ultra-550b-a55b:free",
     inputPer1M: 0,
     outputPer1M: 0,
@@ -32,7 +31,6 @@ export const MODELS: ModelInfo[] = [
     id: "gpt-oss-free",
     label: "GPT-OSS 120B (free)",
     provider: "openrouter",
-    // TODO: confirm exact slug via the "copy model ID" button on openrouter.ai/models
     modelId: "openai/gpt-oss-120b:free",
     inputPer1M: 0,
     outputPer1M: 0,
